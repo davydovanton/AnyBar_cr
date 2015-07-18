@@ -7,8 +7,8 @@ module AnyBar
 
     getter color
 
-    def initialize(port = nil)
-      @port = port.nil? ? 1738 : port.to_i
+    def initialize(port = 1738)
+      @port = port.to_i
       @color = "white"
     end
 
