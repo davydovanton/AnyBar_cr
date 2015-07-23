@@ -24,7 +24,7 @@ any_bar.color = 'red'
 any_bar.color # => 'red'
 ```
 
-_**By default port equal 1738**_
+_**By default port is equal 1738**_
 
 ## Contributing
 
