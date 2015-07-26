@@ -11,13 +11,11 @@ end
 
 ## Usage
 **You must have AnyBar installed and running**
-
 ``` crystal
 require "any_bar"
 ```
 
 You can change bar color from your app using this syntax:
-
 ``` crystal
 any_bar = AnyBar::Client.new(port)
 any_bar.color = 'red'
