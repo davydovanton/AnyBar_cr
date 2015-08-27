@@ -19,5 +19,9 @@ module AnyBar
       any_bar << @color
       any_bar.close
     end
+
+    def quit
+      color = "quit"
+    end
   end
 end
