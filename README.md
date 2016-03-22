@@ -2,12 +2,11 @@
 Simple [crystal](http://crystal-lang.org) wrapper for [AnyBar](https://github.com/tonsky/AnyBar)
 
 ## Installation
-Add it to `Projectfile`
-``` crystal
-deps do
-  github "davydovanton/AnyBar_cr"
-end
-```
+Add this to your application's shard.yml:
+
+dependencies:
+  AnyBar_cr:
+    github: davydovanton/AnyBar_cr
 
 ## Usage
 **You must have AnyBar installed and running**
