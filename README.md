@@ -4,9 +4,11 @@ Simple [crystal](http://crystal-lang.org) wrapper for [AnyBar](https://github.co
 ## Installation
 Add this to your application's shard.yml:
 
+```yml
 dependencies:
   AnyBar_cr:
     github: davydovanton/AnyBar_cr
+```
 
 ## Usage
 **You must have AnyBar installed and running**
